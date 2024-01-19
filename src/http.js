@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://localhost:5500/api/';
+const baseURL = 'https://travel-backend-qjvs.onrender.com/api/';
 
 export const userRequest = axios.create({
 	baseURL: baseURL,
